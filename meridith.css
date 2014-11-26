@@ -1,0 +1,277 @@
+
+/***********CAROUSEL*******************/
+
+/***********CSS HOMEPAGE**********************/
+
+.homeimage img {
+  width: 100%;  
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin: 60% 10%;
+}
+
+.smltxt {
+  font-size: 0.5em;
+  display: block;
+  margin-top: -9px;
+}
+
+h6 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+nav {
+  list-style: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/***********CSS ABOUT PAGE**************/
+
+.aboutbody {
+  background-image: url("http://lizziekoe.github.io/images/background3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+}
+
+.abouth2 {
+  margin: 5%;
+  padding: 6%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.box {
+  background-color: rgba(255,255,255,0.5 );
+
+
+}
+
+
+.nav {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: white;
+  margin: 5%, 10%; 
+  text-align: center;
+}
+
+.aboutp {
+  margin: 5% 10%;
+  line-height: 150%;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-shadow: 0 0 50px white;
+  background-color: rgba(255,255,255,0.5 );
+}
+
+
+/********SELECTED WORKS PAGE*********/
+
+.artbody {
+  background-image: url("http://lizziekoe.github.io/images/P1010555.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+}
+
+.arth2 {
+  margin: 5% 0;
+  padding: 6%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.nav {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: white;
+  margin: 5%, 10%; 
+  text-align: center;
+}
+
+.options {
+  margin: 5%;
+  line-height: 150%;
+  font-size: 150%;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.5%;
+  margin: 1% 15%;
+  list-style: none;
+  text-outline: 1px 1px green;
+}
+
+/*************CAROUSEL************/
+
+/* Carousel base class */
+.carousel {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 550px;
+  background-color: #777;
+  background-color: black;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+}
+
+.carouselimg {
+  text-align: center;
+  margin: 5%;
+}
+
+
+/*********CONTACT PAGE**************/
+
+.contactbody {
+  background-image: url("http://lizziekoe.github.io/images/contactbg2.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contacth2 {
+  /*background-color: rgba(255,255,255,0.5 );*/
+  margin: 10%;
+  padding: 6%;
+  border: 10%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.nav {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: white;
+  margin: 5%, 10%; 
+  text-align: center;
+}
+
+h3, h4 {
+  margin: 5%;
+  line-height: 50%;
+  font-size: 150%;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-align: center;
+  background: white;
+  padding: 1.5%;
+  margin: 1% 15%;
+}
+
+form {
+  font-size: 150%;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-align: center;
+}
+
+.formtitle{
+  background-color: white;
+  margin: 5%;
+  font-size: 250%;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-align: center;
+}
+/**********FOOTER********/
+
+footer {
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 125%;
+  padding: 5%;
+}
+
+
+/**********MEDIA QUERIES HOMEPAGE********/
+
+@media screen and (max-width: 900px) {
+ h1 {
+    margin: 0 15px;
+    position: relative;
+    top: 110px;  
+    z-index: 2;
+    text-align: right;
+  }
+  
+  
+ .navbar-fixed-top {
+    position: relative;
+    z-index: 5;
+    top: 200px;
+    left: 70px;  
+    background-color: rgba(255,255,255,0.5 );
+   }    
+ 
+ nav {
+   height: 0;
+   
+   }
+
+  .carousel .item img{
+    width: 80%;
+    height: 10%;
+    background-color: #777;
+    background-color: black;
+    margin: 10% 0;
+}
+  
+ }
+
+
+@media screen and (max-width: 768px) {
+ h1 {
+    margin: 0 15px;
+    position: relative;
+    top: 110px;  
+    z-index: 2;
+    text-align: right;
+  }
+  
+  
+ .navbar-fixed-top {
+    position: relative;
+    z-index: 5;
+    top: 200px;
+    left: 70px;  
+    background-color: rgba(255,255,255,0.5 );
+   }    
+ 
+ nav {
+   height: 0;
+   
+   }
+
+  .carousel .item img{
+    width: 80%;
+    height: 10%;
+    background-color: #777;
+    background-color: black;
+    margin: 30% 10%;
+}
+  
+ }
+
+
+
+

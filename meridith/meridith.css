@@ -1,0 +1,193 @@
+
+
+/***********CSS HOMEPAGE**********************/
+
+.homeimage img {
+  width: 100%;
+  
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin: 60% 10%;
+}
+
+nav {
+  list-style: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+/***********CAROUSEL*******************/
+
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+
+#myCarousel {
+	height: 500px;
+}
+
+.carousel-caption{
+	position: inital;
+}
+
+
+/***********CSS ABOUT PAGE**************/
+
+.aboutbody {
+  background-image: url("http://lizziekoe.github.io/images/background3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.abouth2 {
+  /*background-color: white;*/
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.box {
+	background-color: white;
+	opacity: 0.5;
+}
+
+.nav {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: white;
+  margin: 5%, 10%; 
+  text-align: center;
+}
+
+.aboutp {
+  margin: 5% 10%;
+  line-height: 150%;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-shadow: 0 0 50px white;
+}
+
+
+/********SELECTED WORKS PAGE*********/
+.artbody {
+  background-image:   url("http://lizziekoe.github.io/images/P1010555.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.arth2 {
+  background-color: white;
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.nav {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: white;
+  margin: 5%, 10%; 
+  text-align: center;
+}
+
+.options {
+  margin: 5%;
+  line-height: 150%;
+  font-size: 150%;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.5%;
+  margin: 1% 15%;
+  list-style: none;
+  text-outline: 1px 1px green;
+}
+
+
+/*********CONTACT PAGE**************/
+
+.contactbody {
+  background-image:   url("http://lizziekoe.github.io/images/merbackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contacth2 {
+  background-color: white;
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.nav {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: white;
+  margin: 5%, 10%; 
+  text-align: center;
+}
+
+h3, h4 {
+  margin: 5%;
+  line-height: 50%;
+  font-size: 150%;
+  font-family: 'Alegreya Sans SC',   sans-serif;
+  text-align: center;
+  background: white;
+  padding: 1.5%;
+  margin: 1% 15%;
+}
+
+/**********MEDIA QUERIES HOMEPAGE********/
+
+@media screen and (max-width: 768px) {
+ h1 {
+    margin: 0 15px;
+    position: relative;
+    top: 110px;  
+    z-index: 1;
+    text-align: right;
+  }
+  
+  
+ .navbar-fixed-top {
+    position: relative;
+    z-index: 5;
+    top: 200px;
+    left: 70px;  
+   }    
+ 
+ nav {
+   height: 0;
+   }
+  
+ }
+
+
